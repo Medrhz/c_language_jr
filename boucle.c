@@ -3,7 +3,31 @@
 
 int main()
 {
+
+    // boucles
+
+    // for(int i = 0 ;i<10;i++){
+    //   printf("hello from from\n");
+    //}
+
+    // table multiplication 5;
+    /*
+    printf("%d\n", 5*1);
+    printf("%d\n", 5*2);
+      printf("%d\n", 5*3);
+      printf("%d\n", 5*4);
+      printf("%d\n", 5*5);
+      printf("%d\n", 5*6);
+      */
     // for
+
+    for (int x = 0; x <= 10; x++)
+    {
+        printf("-----------\n");
+        int res = 5 * x;
+        printf("%d * %d = %d\n", 5, x, res);
+    }
+
     int a = 0;
     int somme = 0;
     int factorielle = 1;
@@ -26,5 +50,14 @@ int main()
     }
     // printf("somme : %d\n",somme);
     // printf("factorielle : %d",factorielle);
+
+    // while
+    int i = 0; // declaration
+    while (i <= 10)
+    {
+        int res = 5 * i;
+        printf("%d * %d = %d\n", 5, i, res);
+        i++;
+    }
     return 0;
 }
